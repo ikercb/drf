@@ -138,8 +138,10 @@ def densityRandomForest(data, nTrees):
 
 def estimateRF(forest, example):
     estimates = [estimate(tree, example) for tree in forest]
-    return sum(estimates)/len(estimates)
-
+    return sum(estimates)/len(estimates
+                              
+                              
+#Test
 v = np.random.normal(0,1,100)
 data = []
 for i in range(100):
